@@ -1,0 +1,209 @@
+* {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+html {
+  margin: 0;
+  padding: 0;
+  font-family: monospace;
+  font-size: 1.2rem;
+  background: #EEE;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-items: center;
+}
+
+#header {
+  padding: 1rem;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 3rem;
+  box-sizing: border-box;
+  z-index: 10;
+}
+
+#header-img {
+  width: auto;
+  float: left;
+}
+
+#logo {
+  font-size: 1.5rem;
+  color: darkgreen;
+}
+
+#nav-bar {
+  float: right;
+  width: auto;
+}
+
+#nav-bar a:not(:first-child) {
+  margin-left: 1rem;
+}
+
+#nav-bar a {
+  margin-right: 2rem;
+}
+
+main {
+  width: 80%;
+  margin-top: 3rem;
+  position: relative;
+  background: #F0F0F0;
+}
+
+#mail {
+  margin-bottom: .6rem;
+  padding: 0.5rem;
+  width: 55%;
+}
+
+h1 {
+  margin-bottom: .7rem;
+  text-align: center;
+}
+
+#form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+input[type="email"] {
+  width: 150px;
+  margin-bottom: .5rem;
+  padding: .3rem;
+  border: 1px solid black;
+  border-radius: 5px;
+  font-size: .8rem;
+}
+
+input[type="submit"] {
+  width: auto;
+  margin-bottom: .5rem;
+  padding: .3rem;
+  font-size: .9rem;
+  border: 1px solid black;
+  border-radius: 10px;
+  background: #F7D000;
+}
+
+#features {
+  margin-bottom: 1rem;
+  padding: 0.5rem;
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+}
+
+.feature {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background: #EEE;
+  margin: 5px;
+}
+
+.icon {
+  margin: 1rem;
+  margin-right: 1rem;
+  width: 60px;
+}
+
+.icon i {
+  font-size: 2.5rem;
+  color: darkgreen;
+}
+
+.service {
+  display: inline-block;
+  margin: 1rem;
+  width: 100%;
+}
+
+#demo {
+  margin-bottom: 1rem;
+  padding: 0.5rem;
+  width: 50%;
+}
+
+#video {
+  appearance: none;
+  width: 545px;
+  height: 300px;
+}
+
+#prices {
+  margin-bottom: 1rem;
+  padding: 0.5rem;
+  width: 80%;
+  display: flex;
+  justify-items: space;
+}
+
+.price {
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  border: solid 1px black;
+  border-radius: .5rem;
+}
+
+.price h2 {
+  margin: 0;
+  padding: .5rem;
+  font-size: 1.2rem;
+  font-weight: 550;
+  border-radius: .5rem .5rem 0 0;
+  background: #DDD;
+}
+
+.price p:first-of-type {
+  font-size: 1.2rem;
+  font-weight: 550;
+}
+
+.price .select {
+  width: 25%;
+  margin: .5rem;
+  padding: .5rem;
+  align-self: center;
+  border: 1px solid black;
+  border-radius: 10px;
+  background: #F7D000;
+}
+
+#footer {
+  padding: .5rem;
+  width: 61%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  font-size: .85rem;
+  background: #DDD;
+}
+
+#info {
+  margin: .2rem 0;
+}
+
+#info a {
+  margin: .5rem;
+}
+
+#copyright {
+  margin: 0;
+}
+
+@media (max-width: 600px) {
+  font-size: 1rem;
+}
